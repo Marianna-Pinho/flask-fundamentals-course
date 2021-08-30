@@ -16,3 +16,11 @@ def hi():
 @app.route('/bye')
 def bye():
     return "Bye!"
+
+@app.route('/name/elie')
+def elie():
+    return "The name is elie"
+
+@app.route('/name/matt')
+def matt():
+    return "The name is matt"
